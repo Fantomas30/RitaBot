@@ -51,13 +51,13 @@ module.exports = async function run (config, message)
    else if (bot2botstyle === "on")
    {
 
-      // eslint-disable-next-line no-bitwise
-      if (message.webhookID)
-      {
 
-         return;
 
-      }
+
+
+
+
+
       if (message.author.id === message.client.user.id)
       {
 
